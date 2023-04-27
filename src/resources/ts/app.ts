@@ -16,4 +16,4 @@
 
 
 
-document.getElementById('app').textContent = 'Hello Vite !';
+document.getElementById('app')!.textContent = 'Hello Typescript !';
