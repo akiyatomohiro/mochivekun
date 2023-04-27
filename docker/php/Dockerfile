@@ -16,3 +16,6 @@ RUN apk add nodejs npm
 
 # install php extensions
 RUN docker-php-ext-install pdo pdo_mysql
+
+# install yarn
+RUN npm install -g yarn
